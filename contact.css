@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: lighter;
+    border-bottom: 3px solid #cfa61c;
+    margin-top: 0px;
+}
+
+.navitem {
+    padding-right: 20px;
+}
+
+.nameheader {
+    color: #681827;
+    margin-bottom: 0px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+a:link,
+a:visited {
+    color: #681827;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rosybrown;
+}
+
+main {
+    color: #681827;
+    background-image: url("images/twoflowers.png");
+    background-size: contain;
+    height: 750px;
+    width: 1000px;
+    margin-left: 135px;
+}
+
+.contact {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.first {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 170px;
+}
+
+.last {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+.email {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 400px;
+}
+
+.questionbox {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.questionarea {
+    margin-left: 300px;
+    height: 200px;
+    width: 400px;
+}
+
+.submit {
+    background-color: rosybrown;
+    margin-left: 320px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 42px;
+    width: 42px;
+    border-radius: 5px;
+    background: #681827;
+    margin-top: 3px;
+}
+
+.instagram:hover {
+    background-color: rosybrown;
+}

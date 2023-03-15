@@ -1,0 +1,127 @@
+body {
+    background-color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: lighter;
+    border-bottom: 3px solid #cfa61c;
+    margin-top: 0px;
+}
+
+.navitem {
+    padding-right: 20px;
+}
+
+.nameheader {
+    color: #681827;
+    margin-bottom: 0px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+a:link,
+a:visited {
+    color: #681827;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rosybrown;
+}
+
+.shapeone {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    height: 400px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/headshotcopy.jpg");
+    background-size: contain;
+}
+
+.selfie {
+    background-color: rosybrown;
+    color: white;
+    width: 600px;
+    height: 150px;
+    justify-self: right;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    margin-top: -230px;
+    margin-left: 330px;
+    border-radius: 25px;
+}
+
+.shapetwo {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    height: 400px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 930px;
+    background-image: url("images/family.jpg");
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+.family {
+    background-color: rosybrown;
+    color: white;
+    width: 530px;
+    height: 150px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    margin-top: -230px;
+    margin-left: 370px;
+    border-radius: 25px;
+    padding-right: 40px;
+}
+
+.shapethree {
+    margin-top: -65px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    height: 400px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/denali.jpeg");
+    background-size: cover;
+    background-position-x: -180px;
+}
+
+.denali {
+    background-color: rosybrown;
+    color: white;
+    width: 600px;
+    height: 150px;
+    justify-self: right;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    margin-top: -230px;
+    margin-left: 330px;
+    border-radius: 25px;
+}
+
+.font {
+    font-family: 'Playfair Display', serif;
+}

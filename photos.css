@@ -1,0 +1,205 @@
+body {
+    background-color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: lighter;
+    border-bottom: 3px solid #cfa61c;
+    margin-top: 0px;
+}
+
+.navitem {
+    padding-right: 20px;
+}
+
+.nameheader {
+    color: #681827;
+    margin-bottom: 0px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+a:link,
+a:visited {
+    color: #681827;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rosybrown;
+}
+
+.shape1 {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 910px;
+    background-image: url("images/aurorahouse.jpg");
+    background-size: cover;
+}
+
+.shape2 {
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 820px;
+    background-image: url("images/aurorahousetrees.jpg");
+    background-size: cover;
+}
+
+.shape3 {
+    margin-top: -420px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 800px;
+    background-image: url("images/auroratrees.jpg");
+    background-size: cover;
+}
+
+.shape4 {
+    margin-top: -350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 350px;
+    height: 400px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/familypic2.jpg");
+    background-size: cover;
+}
+
+.shape5 {
+    margin-top: -120px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 350px;
+    height: 350px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 250px;
+    background-image: url("images/ray.jpg");
+    background-size: cover;
+}
+
+.shape6 {
+    margin-top: -130px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    height: 350px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 570px;
+    background-image: url("images/braxjess.jpg");
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+.shape7 {
+    margin-top: -870px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 200px;
+    height: 275px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 450px;
+    background-image: url("images/boys.jpg");
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+.shape8 {
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 275px;
+    height: 350px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/glacier.jpg");
+    background-size: cover;
+    background-position-x: -10px;
+
+}
+
+.shape9 {
+    margin-top: -400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 275px;
+    height: 500px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 950px;
+    background-image: url("images/waterfall.jpg");
+    background-size: cover;
+}
+
+.shape10 {
+    margin-top: -270px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 190px;
+    height: 250px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 250px;
+    background-image: url("images/brax.jpg");
+    background-size: cover;
+
+}
+
+.shape11 {
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 400px;
+    height: 200px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 500px;
+    background-image: url("images/home.jpg");
+    background-size: cover;
+    background-position-y: -80px;
+}

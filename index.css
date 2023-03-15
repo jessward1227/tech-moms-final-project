@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: lighter;
+    border-bottom: 3px solid #cfa61c;
+    margin-top: 0px;
+}
+
+.navitem {
+    padding-right: 30px;
+    margin-left: 20px;
+}
+
+.navcontact {
+    margin-right: 20px;
+}
+
+.nameheader {
+    color: #681827;
+    margin-bottom: 0px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+a:link,
+a:visited {
+    color: #681827;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rosybrown;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.shapeleft {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border: 2px solid #cfa61c;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 100px;
+}
+
+.location {
+    font-size: larger;
+    align-items: end;
+}
+
+
+.shapecenter {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: 500px;
+    border: 2px solid #cfa61c;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-image: url("images/rotateflowersandfoliage.png");
+    background-size: cover;
+    background-position-x: -5px;
+    background-position-y: 7px;
+    background-repeat: no-repeat;
+    font-size: 125px;
+}
+
+.j {
+    margin-top: -50px;
+    padding-right: 120px;
+    margin-bottom: -210px;
+    font-size: 140px;
+}
+
+.e {
+    margin-bottom: -225px;
+    padding-right: 70px;
+}
+
+.s {
+    margin-bottom: -230px;
+}
+
+.s2 {
+    margin-bottom: -235px;
+    padding-right: 10px;
+}
+
+.i {
+    margin-bottom: -230px;
+    padding-left: 60px;
+}
+
+.c {
+    margin-bottom: -220px;
+    padding-right: 30px;
+}
+
+.a {
+    margin-bottom: -150px;
+    padding-left: 70px;
+}
+
+.shaperight {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border: 2px solid #cfa61c;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-right: 100px;
+    font-size: larger;
+    text-align: center;
+    overflow-wrap: normal;
+}

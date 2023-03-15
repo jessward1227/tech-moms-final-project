@@ -1,0 +1,161 @@
+body {
+    background-color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: lighter;
+    border-bottom: 3px solid #cfa61c;
+    margin-top: 0px;
+}
+
+.navitem {
+    padding-right: 20px;
+}
+
+.nameheader {
+    color: #681827;
+    margin-bottom: 0px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+a:link,
+a:visited {
+    color: #681827;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rosybrown;
+}
+
+.shapeone {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 200px;
+    height: 250px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/graduation.jpg");
+    background-size: cover;
+    background-position-x: -79px;
+}
+
+.shapetwo {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 200px;
+    height: 250px;
+    border: 2px solid #681827;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/teaching.jpg");
+    background-size: cover;
+}
+
+.shapethree {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 200px;
+    height: 250px;
+    border: 2px solid #681827;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/ixn.jpg");
+    background-size: cover;
+    background-position-x: -32px;
+    background-position-y: 2px;
+}
+
+.shapefour {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 200px;
+    height: 250px;
+    border: 2px solid #681827;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-left: 50px;
+    background-image: url("images/whatnext.jpg");
+    background-size: cover;
+    background-position-y: -9px;
+    background-position-x: -170px;
+
+}
+
+.usu {
+    background-color: rosybrown;
+    color: white;
+    width: 900px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    margin-top: -215px;
+    margin-left: 330px;
+    border-radius: 25px;
+}
+
+.teach {
+    background-color: #681827;
+    color: white;
+    width: 900px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    margin-top: -215px;
+    margin-left: 330px;
+    border-radius: 25px;
+}
+
+.ixn {
+    background-color: rosybrown;
+    color: white;
+    width: 900px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    margin-top: -215px;
+    margin-left: 330px;
+    border-radius: 25px;
+}
+
+.now {
+    background-color: #681827;
+    color: white;
+    width: 900px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    margin-top: -215px;
+    margin-left: 330px;
+    border-radius: 25px;
+
+}
+
+.font {
+    font-family: 'Playfair Display', serif;
+}
